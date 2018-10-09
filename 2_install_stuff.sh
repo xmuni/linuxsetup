@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 
-sudo apt install caja nomacs qbittorrent rawtherapee gimp dconf-editor gmusicbrowser krita darktable libreoffice gimp grsync dropbox-nautilus
+sudo apt install caja nomacs qbittorrent rawtherapee gimp dconf-editor gmusicbrowser krita darktable libreoffice gimp grsync dropbox-nautilus mate-system-monitor
 
 # INSTALL SUBLIME TEXT
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
