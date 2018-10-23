@@ -17,8 +17,10 @@ echo "- Added asterisks for terminal password input"
 # BASH ALIASES AND CTRL+BACKSPACE BIND
 
 sudo echo "alias neo='neofetch'" >> ~/.bashrc
-sudo echo "alias upd='sudo apt update'" >> ~/.bashrc
-sudo echo "alias upg='sudo apt upgrade'" >> ~/.bashrc
-sudo echo "alias updg='sudo apt update && sudo apt upgrade'" >> ~/.bashrc
+sudo echo "alias ad='sudo apt update'" >> ~/.bashrc
+sudo echo "alias ag='sudo apt upgrade'" >> ~/.bashrc
+sudo echo "alias adg='sudo apt update && sudo apt upgrade'" >> ~/.bashrc
+sudo echo "alias ai='sudo apt install'" >> ~/.bashrc
+sudo echo "alias ar='sudo apt remove'" >> ~/.bashrc
 sudo echo "bind '"0x08":backward-kill-word' >> ~/.bashrc
 echo "- Added aliases and ctrl+backspace bind"
