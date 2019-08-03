@@ -6,3 +6,4 @@ alias jayr="sudo apt remove"
 alias jaya="sudo apt autoremove"
 
 alias py="python3"
+alias python="python3"
