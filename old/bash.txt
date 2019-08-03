@@ -1,0 +1,19 @@
+﻿
+### ADD ASTERISK TO TERMINAL PASSWORD
+### sed -i 's/before/after/g' file.txt
+sudo sed -i 's/env_reset/env_reset,pwfeedback/g' /etc/sudoers
+# echo "- Added asterisks for terminal password input"
+
+### ADD BASH ALIASES AND CTRL+BACKSPACE BIND
+
+# sudo echo "alias ad='sudo apt update -yy'" >> ~/.bashrc
+# sudo echo "alias ag='sudo apt upgrade -yy'" >> ~/.bashrc
+# sudo echo "alias adg='sudo apt update -yy && sudo apt upgrade -yy'" >> ~/.bashrc
+# sudo echo "alias ai='sudo apt install'" >> ~/.bashrc
+# sudo echo "alias ar='sudo apt remove'" >> ~/.bashrc
+# sudo echo "alias aa='sudo apt autoremove'" >> ~/.bashrc
+
+sudo cp jay.sh ~/jay.sh
+sudo echo "jay='~/jay.sh'" >> ~/.bashrc
+# sudo echo "bind '"0x08":backward-kill-word' >> ~/.bashrc
+echo "- Added bash aliases and ctrl+backspace"

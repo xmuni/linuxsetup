@@ -1,0 +1,8 @@
+alias sudo="sudo "
+alias jay="sudo bash ~/jay.sh"
+
+alias jays="apt search"
+alias jayr="sudo apt remove"
+alias jaya="sudo apt autoremove"
+
+alias py="python3"

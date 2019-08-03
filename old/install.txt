@@ -1,0 +1,10 @@
+﻿
+# sudo apt install caja nomacs qbittorrent 
+# gimp dconf-editor gmusicbrowser krita darktable 
+# libreoffice gimp grsync dropbox-nautilus mate-system-monitor psensor
+
+### COPY ALL FONTS TO THE FONTS FOLDER
+sudo cp -R fonts/* /usr/share/fonts
+echo "- Fonts installed"
+
+sudo apt install ttf-mscorefonts-installer

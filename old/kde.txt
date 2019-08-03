@@ -1,0 +1,2 @@
+﻿
+echo "Copying up kde settings"
