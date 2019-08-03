@@ -7,7 +7,7 @@
 
 # Solus
 if [ $# = 0 ]; then
-    sudo eopkg update
+    sudo eopkg upgrade
 else
     sudo eopkg install $*
 fi

@@ -39,7 +39,7 @@ def run_option(char):
             # to do: set jay.sh as executable
             with open('scripts/aliases.txt','r+',encoding='UTF-8') as file:
                 bashrc_append(file.read(),username)
-            bash.call('source ~/.bashrc') # Reload bash aliases
+            # bash.call('source ~/.bashrc') # Reload bash aliases
 
 
     # Install fonts
@@ -88,7 +88,8 @@ options = {
         'filename': 'scripts/kde.txt'
     }
 }
-    
+
+print('Reminder! Run this script as "sudo python3 setup.py"')
 
 while True:
     for (key,value) in options.items():
